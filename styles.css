@@ -1,0 +1,157 @@
+* {
+    font-family: 'Outfit';
+    color: hsl(0, 0%, 100%);
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{background-color: hsl(217, 54%, 11%);}
+p {
+    font-size: 18px;
+}
+.attribution {
+    font-size: 11px; text-align: center; 
+    padding: 10px;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+.container  {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.card {
+   
+    position: relative;
+    width: 325px;
+    height: auto;
+    border: 1px solid hsl(216, 50%, 16%); 
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow:  1px 10px 14px 10px hsl(213, 60%, 6%);
+    margin: auto;
+    margin-top: 100px;
+    }
+    .card-img {
+        width: 280px;
+        height: 280px;
+        border: 1px solid hsl(216, 50%, 16%);
+        border-radius: 15px;
+        background-image: url(./images/image-equilibrium.jpg);
+        background-size: cover;
+        background-position: center center;
+      position: relative;
+    }
+    .card-title {
+        padding: 10px;
+        font-weight: 600;
+        font-size: 19px;
+        margin-top: 10px;
+    }
+    .text {
+        padding: 10px;
+        color: hsl(215, 32%, 27%);
+        font-weight: 600;
+    
+    }
+    
+hr{
+        width: 90%;
+        border: 1px solid hsl(215, 32%, 27%);
+      margin-top: 20px;
+      margin-bottom: 15px;
+      margin-left: 10px;
+}
+.icon1{
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-image: url(./images/icon-ethereum.svg);
+     display: inline-block;
+     padding: 8px;
+     margin-top: 10px;
+     margin-left: 5px;
+ }
+ .icon2{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(./images/icon-clock.svg);
+    display: inline;
+    padding: 8px;
+    margin-left: 100px;
+}
+.icon3{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url(./images/icon-view.svg);
+   width: 10px;
+   height: 10px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    opacity: 1;
+    
+}
+ .info{
+    padding-left: 5px;
+    font-size:small;
+   
+ }
+ .in1 {
+    color: hsl(178, 100%, 50%);
+
+ }
+ .in2 {
+    color: hsl(215, 51%, 70%)
+
+ }
+ .card-img-p {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./images/image-avatar.png);
+    display:inline;
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 15px;
+    
+    padding-top: 10px;
+    padding-left: 25px;
+ }
+ .mask {
+    width: 280px;
+    height: 280px;
+    border: 1px solid hsl(178, 100%, 50%);
+    border-radius: 15px;
+    background-color: hsl(178, 100%, 50%);;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0;
+
+}
+
+ @media screen and (max-width: 375px){
+    html{
+        width: 375px;
+        overflow: auto;
+    }
+  }
+ .in3:hover, .in3:active{
+        color: hsl(178, 100%, 50%);
+
+ }
+ .card-title:hover, .card-title:active{
+    color: hsl(178, 100%, 50%);
+
+}
+.card-img:hover .mask{
+   opacity: 0.5;
+}
+
+ 
+ 
+
